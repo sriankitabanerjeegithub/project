@@ -5,7 +5,7 @@ from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 
 # Load the trained model
-model_path = "C:/Users/baner/OneDrive/Desktop/jupyter projects/model.pkl"
+model_path = "model.pkl"
 with open(model_path, "rb") as file:
     model = pickle.load(file)
 print("✅ Model loaded successfully!")
