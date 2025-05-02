@@ -2,3 +2,8 @@ tensorflow
 jupyter
 notebook
 numpy
+fastapi
+uvicorn
+gunicorn
+scikit-learn
+pydantic
